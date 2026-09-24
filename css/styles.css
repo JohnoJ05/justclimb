@@ -134,9 +134,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   display: flex; align-items: center; justify-content: center;
 }
 .img-slot::after {
-  content: attr(data-label); max-width: 78%; text-align: center;
-  font-size: 12px; font-weight: 600; line-height: 1.4; color: var(--color-neutral-700);
-  background: rgba(255,255,255,.86); padding: 10px 14px; border-radius: 4px;
+  content: none;
 }
 .img-slot.is-filled { background-size: cover; background-position: center; }
 .img-slot.is-filled::after { display: none; }
