@@ -1,2 +1,7 @@
 .DS_Store
 Thumbs.db
+
+# Raw/source assets not used by the live site
+Images/
+Design assets needed/
+images/caveDiving/
